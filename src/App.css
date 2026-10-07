@@ -29,6 +29,12 @@ html {
   scroll-padding-top: 88px;
 }
 
+#trabalhos,
+#sobre,
+#contato {
+  scroll-margin-top: -20vh;
+}
+
 body {
   min-width: 320px;
   margin: 0;
