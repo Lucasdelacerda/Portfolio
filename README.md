@@ -50,6 +50,16 @@ Os arquivos prontos para publicação serão gerados na pasta `dist/`. Para conf
 npm run preview
 ```
 
+## 🌐 Publicação no GitHub Pages
+
+Com o GitHub Pages configurado para publicar a branch `gh-pages`, gere e publique a versão atual com:
+
+```bash
+npm run deploy
+```
+
+Esse comando executa o build antes de enviar o conteúdo de `dist/`, incluindo os caminhos necessários para o endereço de projeto `/Portfolio/`.
+
 ## 🛠️ Personalização
 
 1. Edite os textos e os dados dos projetos em [`src/App.jsx`](./src/App.jsx).

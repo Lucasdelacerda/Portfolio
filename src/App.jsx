@@ -31,38 +31,40 @@ const projects = [
   },
 ];
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const technologies = [
   
   {
     name: 'Spring Boot',
     detail: 'Back-end',
-    icon: '/icons/spring%20boot.png',
+    icon: `${baseUrl}icons/spring%20boot.png`,
   },
    {
     name: 'Docker',
     detail: 'Containers',
-    icon: '/icons/docker.png',
+    icon: `${baseUrl}icons/docker.png`,
   },
     {
     name: 'JUnit',
     detail: 'Testes',
-    icon: '/icons/junit.png',
+    icon: `${baseUrl}icons/junit.png`,
   },
   {
     name: 'React',
     detail: 'Interfaces',
-    icon: '/icons/react.jpg',
+    icon: `${baseUrl}icons/react.jpg`,
   },
   
   {
     name: 'JavaScript',
     detail: 'Desenvolvimento',
-    icon: '/icons/javascript.png',
+    icon: `${baseUrl}icons/javascript.png`,
   },
   {
     name: 'Tailwind CSS',
     detail: 'Estilo & layout',
-    icon: '/icons/tailwind.png',
+    icon: `${baseUrl}icons/tailwind.png`,
   },
  
 
